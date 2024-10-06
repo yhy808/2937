@@ -1,8 +1,8 @@
-- Model files from the paper: 
+Model files from the paper: 
 M. Migliore, Modeling the attenuation and failure of action potentials in 
-the dendrites of hippocampal neurons, Biophys. J. 71:2394-403 (1996).
+the dendrites of hippocampal neurons, *Biophys. J.* 71:2394-403 (1996).
  
-- The paper proposed (and experiments later confirmed) a slow inactivation 
+The paper proposed (and experiments later confirmed) a slow inactivation 
 of the Na channels as the mechanism responsible for the progressive 
 reduction of action potentials amplitude, observed in the dendrites of 
 CA1 hippocampal pyramidal neurons during a train.  This mechanism was 
@@ -12,14 +12,14 @@ conductance (na3.mod) of the 1999 CA1 model.
 
 
 Under unix systems:
-===================
+-------------------
 to compile the mod files use the command 
 ``` nrnivmodl ```
 and run the simulation hoc file with the command 
 ``` nrngui figs.hoc ```
 
 Under Windows:
-==============
+--------------
 to compile the mod files use the "mknrndll DOS box" and 
 follow on-screen instructions.
 A double click on the simulation file
@@ -48,6 +48,9 @@ the 250ms delay.
 Questions on how to use this model should be directed to
 michele.migliore@pa.ibf.cnr.it
 
+Changelog
+---------
+2024-10: Converted readme to markdown
 
 
 
